@@ -1,119 +1,232 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GLOBAL DROPSHIPPING | Stabilność. Finansowanie. Skala.</title>
 
-    <title>Dropshipping Global – GLOBAL DROPSHIPPING™ | Oferta B2B</title>
+<style>
+* {margin:0; padding:0; box-sizing:border-box;}
 
-    <meta name="description" content="Dropshipping Global – GLOBAL DROPSHIPPING™ to kompleksowa obsługa zamówień B2B i hurtowych. Dropshipping, finansowanie, raty, pełna dostępność.">
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:#f4f6f9;
+  color:#1c1f26;
+  line-height:1.6;
+}
 
-    <!-- GOOGLE SEARCH CONSOLE (WKLEJ TU SWÓJ KOD)
-    <meta name="google-site-verification" content="TUTAJ_WKLEJ_KOD">
-    -->
+a {text-decoration:none;}
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f4f6f8;
-            color: #222;
-            line-height: 1.6;
-        }
-        header {
-            background: #0a1a2f;
-            color: #fff;
-            padding: 24px 16px;
-            text-align: center;
-        }
-        header img {
-            max-width: 160px;
-            margin-bottom: 12px;
-        }
-        section {
-            padding: 20px;
-            max-width: 1000px;
-            margin: 20px auto;
-            background: #ffffff;
-            border-radius: 8px;
-        }
-        h1, h2, h3 {
-            color: #0a1a2f;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        .contact {
-            background: #e9f0fa;
-            border-left: 5px solid #0a1a2f;
-            padding: 15px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #0a1a2f;
-            color: #ffffff;
-            font-size: 14px;
-        }
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 22px;
-            }
-        }
-    </style>
+nav {
+  background:#0d1b2a;
+  color:#fff;
+  padding:20px 8%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav .logo {
+  font-weight:600;
+  letter-spacing:1px;
+}
+
+nav ul {
+  list-style:none;
+  display:flex;
+  gap:30px;
+}
+
+nav ul li a {
+  color:#d0d6e0;
+  font-size:14px;
+}
+
+nav ul li a:hover {
+  color:#ffffff;
+}
+
+/* HERO */
+.hero {
+  background:#0d1b2a;
+  color:#fff;
+  padding:120px 8%;
+  text-align:center;
+}
+
+.hero h1 {
+  font-size:40px;
+  margin-bottom:20px;
+}
+
+.hero p {
+  max-width:700px;
+  margin:0 auto 40px auto;
+  color:#cbd3df;
+  font-size:18px;
+}
+
+.btn-primary {
+  background:#c6a75e;
+  color:#0d1b2a;
+  padding:14px 30px;
+  border-radius:4px;
+  font-weight:600;
+}
+
+.btn-primary:hover {
+  opacity:0.9;
+}
+
+/* SECTIONS */
+section {
+  padding:90px 8%;
+}
+
+.section-title {
+  text-align:center;
+  margin-bottom:50px;
+  font-size:28px;
+  color:#0d1b2a;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(280px,1fr));
+  gap:30px;
+}
+
+.card {
+  background:#fff;
+  padding:30px;
+  border-radius:6px;
+  box-shadow:0 3px 15px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-bottom:15px;
+  color:#0d1b2a;
+}
+
+.card p {
+  color:#555;
+}
+
+/* TRUST SECTION */
+.trust {
+  background:#0d1b2a;
+  color:#fff;
+  text-align:center;
+}
+
+.trust ul {
+  list-style:none;
+  max-width:800px;
+  margin:40px auto 0 auto;
+}
+
+.trust li {
+  margin-bottom:15px;
+  font-size:16px;
+}
+
+/* CTA */
+.cta {
+  text-align:center;
+  background:#e9edf3;
+}
+
+footer {
+  background:#0d1b2a;
+  color:#b5bdc9;
+  text-align:center;
+  padding:40px 8%;
+  font-size:14px;
+}
+</style>
 </head>
 
 <body>
 
-<header>
-    <img src="logo.png" alt="GLOBAL DROPSHIPPING logo">
-    <h1>Dropshipping Global<br>GLOBAL DROPSHIPPING™</h1>
-    <h3>Oferta B2B | Dropshipping™ | Hurt | Finansowanie</h3>
-</header>
+<nav>
+  <div class="logo">GLOBAL DROPSHIPPING</div>
+  <ul>
+    <li><a href="#model">Model</a></li>
+    <li><a href="#finansowanie">Finansowanie</a></li>
+    <li><a href="#bezpieczenstwo">Bezpieczeństwo</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+  </ul>
+</nav>
 
-<section>
-    <h2>Dane identyfikacyjne</h2>
-    <p>
-        GLOBAL DROPSHIPPING™<br>
-        Marcin Szewczyk<br>
-        ul. Bardowskiego 10/8<br>
-        58-302 Wałbrzych<br>
-        Polska
-    </p>
-</section>
+<div class="hero">
+  <h1>Stabilność zakupowa i elastyczne finansowanie</h1>
+  <p>
+    GLOBAL DROPSHIPPING to platforma pośrednictwa zakupowego
+    zapewniająca szeroki dostęp do rynku oraz elastyczne
+    rozwiązania finansowe dla klientów indywidualnych i biznesowych.
+  </p>
+  <a href="#kontakt" class="btn-primary">Złóż zapytanie</a>
+</div>
 
-<section>
-    <h2>Zakres działalności</h2>
-    <p>
-        GLOBAL DROPSHIPPING™ oferuje kompleksową realizację zamówień zakupowych
-        w modelu dropshippingowym dla klientów B2B, obejmującą pośrednictwo
-        w pozyskiwaniu towarów dowolnego przeznaczenia – od produktów codziennego
-        użytku po specjalistyczne rozwiązania technologiczne.
-    </p>
-</section>
-
-<section>
-    <h2>Kontakt</h2>
-    <div class="contact">
-        <p>
-            E-mail:<br>
-            <strong>
-                <a href="mailto:marcin.szewczyk12557@gmail.com">
-                    marcin.szewczyk12557@gmail.com
-                </a>
-            </strong>
-        </p>
+<section id="model">
+  <h2 class="section-title">Model Współpracy</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Szeroki Zakres Rynkowy</h3>
+      <p>Dostęp do rozbudowanego asortymentu – od elektroniki i wyposażenia firm po maszyny specjalistyczne.</p>
     </div>
+    <div class="card">
+      <h3>Skalowalność</h3>
+      <p>Obsługa zamówień detalicznych oraz hurtowych bez ograniczeń ilościowych.</p>
+    </div>
+    <div class="card">
+      <h3>Indywidualna Obsługa</h3>
+      <p>Każde zapytanie analizowane jest indywidualnie w celu zapewnienia optymalnych warunków cenowych.</p>
+    </div>
+  </div>
+</section>
+
+<section id="finansowanie">
+  <h2 class="section-title">Finansowanie</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Elastyczne Raty</h3>
+      <p>Możliwość podziału płatności – minimum 2 raty, pierwsza rata 50% wartości zamówienia.</p>
+    </div>
+    <div class="card">
+      <h3>Uproszczona Procedura</h3>
+      <p>Proces finansowania realizowany w sposób sprawny i przejrzysty.</p>
+    </div>
+    <div class="card">
+      <h3>Wsparcie Transakcyjne</h3>
+      <p>Stały kontakt oraz nadzór nad realizacją procesu zakupowego.</p>
+    </div>
+  </div>
+</section>
+
+<section id="bezpieczenstwo" class="trust">
+  <h2>Bezpieczeństwo i Transparentność</h2>
+  <ul>
+    <li>✔ Jasne warunki współpracy</li>
+    <li>✔ Przejrzysty model rozliczeń</li>
+    <li>✔ Indywidualne potwierdzenie warunków każdej transakcji</li>
+    <li>✔ Obsługa klientów indywidualnych i B2B</li>
+  </ul>
+</section>
+
+<section id="kontakt" class="cta">
+  <h2 class="section-title">Kontakt</h2>
+  <p>W zapytaniu prosimy wskazać produkt, ilość oraz preferowany model finansowania.</p>
+  <br>
+  <a href="mailto:marcin.szewczyk12557@gmail.com" class="btn-primary">
+    marcin.szewczyk12557@gmail.com
+  </a>
 </section>
 
 <footer>
-    © 2026 GLOBAL DROPSHIPPING™<br>
-    Wszystkie treści, nazwa handlowa oraz identyfikacja wizualna
-    stanowią własność autora i są chronione prawem autorskim ©.
-    Oznaczenie ™ wskazuje na używaną nazwę handlową.
+  © 2026 GLOBAL DROPSHIPPING | Marcin Szewczyk  
+  <br>
+  Platforma pośrednictwa zakupowego
 </footer>
 
 </body>
